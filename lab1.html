@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<html>
+	 <head>
+		    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		  <title>Lab1</title>
+	 </head>
+    <body>
+      <form>
+        <fieldset>
+          <legend><h4>Contact Details</h4></legend>
+            <label for="Name">Name</label><br>
+            <input type="text"id="name"name="name"maxlength="25"placeholder="Enter your name"required=""><br>
+            <label for="Email">Email</label><br>
+            <input type="Email"name="name"autofocus="autofocus"id="Email"value="test@example.com"selected required=""><br>
+            <label for="password">Password</label><br>
+            <input type="password"id="password"name="password"maxlength="6"value=""required=""><br>
+        </fieldset>
+			      <label for="Category"><h4>Category</h4></label>
+  			      <select id="category"name="category"required="">
+                  <option value="student">Student</option><br>
+                  <option value="employee">Employee</option><br>
+                  <option value="freelancer"selected="">Freelancer</option><br>
+              </select>
+    		    <label for="Ticket"><h4>Ticket</h4></label>
+            <input type="radio"name="subject"value="ticket1"required="">Ticket1<br>
+            <input type="radio"name="subject"value="ticket2"checked="">Ticket2<br>
+            <input type="radio"name="subject"value="ticket3">Ticket3<br><br>
+            <h4> Event Date</h4><br>
+            <input type="date"name="Eventdate"required=""><br><br>
+            <label for="Payment"><h4>Payment<h4></label><br>
+            <input type="checkbox" name="onlinepayment"value="onlinepayment"required="">Online Payment<br><br>
+            <label for="notes">Notes</label><br><br>
+            <textarea rows ="5"cols="50"name="notes"placeholder="notes"></textarea><br>
+            <input type="Submit"name="Submit"value="Submit"/>
+            <input type="Reset"name="Reset"value="Reset"/>
+      </form>
+	  </body>
+	</html>
